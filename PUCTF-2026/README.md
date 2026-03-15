@@ -1,5 +1,6 @@
 ## Format style
 
+```shell
 PUCTF-2026/
 ├── Category_Name/
 │   ├── Challenge_Name/
@@ -8,3 +9,4 @@ PUCTF-2026/
 │   └── Another_Challenge/
 │       ├── README.md
 │       └── Images/
+```
