@@ -20,7 +20,7 @@ The challenge is an AI chatbot task. The goal is to open the vault by giving the
 
 This challenge was not solved by directly leaking the system prompt. Instead, the prompt injection attempt was useful because it made the bot reveal a hint. Once the hint pointed to an ancient Arabic story about opening a treasure cave, the intended answer was easy to identify as `芝麻開門`.
 
-![Chal](./k1k1s%20Secret%20Vault/Chal.png)
+![Chal](./images/Chal.png)
 
 ## Approach
 
