@@ -1,8 +1,10 @@
-PUCTF-2026
-      Challenge category
-            Challenge name
-                     README.md (writeup)
-                     Images (你呢題既 images refers)
+## Format style
 
-
-Format
+PUCTF-2026/
+├── Category_Name/
+│   ├── Challenge_Name/
+│   │   ├── README.md        # The Writeup
+│   │   └── Images/          # Screenshots and references
+│   └── Another_Challenge/
+│       ├── README.md
+│       └── Images/
