@@ -1,6 +1,4 @@
-%% 2026-03-12 23:29 %%
-(NuttyShell CTF 2026)
-(Write up by [Ezjfc](https://github.com/Ezjfc)).
+Write up by Ezjfc.
 
 ```
 Catch That Arcadeholic
@@ -52,7 +50,7 @@ To reveal the environment around the Timezone store, we type the address to a ma
 
 
 
-# 2. Supermarket and Bus Stop
+# 2. Locating the Supermarket and Bus Stop
 
 After identifying the shopping centre, we can begin locating the closest supermarket and bus stop. Being easier, the first will be explained first: The following list shows the top common supermarkets in the state of Queensland:
 - Woolworths
@@ -80,7 +78,7 @@ MD5(stdin)= 4ae25ce0a55b6e7460a32473f00efa35
 MD5(stdin)= 06a4701552bbe840158857946dcb5853
 ```
 
-At the end of the day, we end up with four potential flags to test out (due to the uncertainty of the suburb name):
+At the end of the day, due to the uncertainty of the suburb name, we end up with four potential flags to test out:
 - `PUCTF26{Timezone_Westfield_Mt_Gravatt_4122_006515_Woolworths_06a4701552bbe840158857946dcb5853}`
 - `PUCTF26{Timezone_Westfield_Upper_Mt_Gravatt_4122_006515_Woolworths_06a4701552bbe840158857946dcb5853}`
 - `PUCTF26{Timezone_Westfield_Mount_Gravatt_4122_006515_Woolworths_06a4701552bbe840158857946dcb5853}`
@@ -88,6 +86,4 @@ At the end of the day, we end up with four potential flags to test out (due to t
 - `PUCTF26{Timezone_Westfield_Upper_Mount_Gravatt_4122_006515_Woolworths_06a4701552bbe840158857946dcb5853}`
 
 Voilà, the last flag has successfully made our day.
-
-%% 2026-03-27 20:49 %%
 
